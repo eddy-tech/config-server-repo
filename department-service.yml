@@ -15,7 +15,7 @@ spring:
 
     ################### DATABASE CONFIGURATION #################
   datasource:
-    url: jdbc:postgresql://localhost:5432/employee_db
+    url: jdbc:postgresql://localhost:5433/department_db
     username: koko
     password: password123
     driver-class-name: org.postgresql.Driver
