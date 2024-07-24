@@ -12,3 +12,16 @@ eureka:
 spring:
   boot:
     message: Hello, Department Service Spring Cloud Bus Demo
+
+################### DATABASE CONFIGURATION #################
+  datasource:
+    url: jdbc:postgresql://localhost:5432/department_db
+    username: koko
+    password: password123
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      properties:
+        hibernate:
+         ddl-auto: update
+         dialect: org.hibernate.dialect.PostgreSQLDialect
+      show-sql: false
